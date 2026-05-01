@@ -128,7 +128,7 @@ extension Onboarding {
                         defaultOption = .dana
                     } else if pumpManager is MinimedPumpManager {
                         defaultOption = .minimed
-                    } else if pumpManager is M640GPumpManager {
+                    } else if pumpManager is M640GKitPumpManager {
                         defaultOption = .m640g
                     } else {
                         defaultOption = .omnipodDash

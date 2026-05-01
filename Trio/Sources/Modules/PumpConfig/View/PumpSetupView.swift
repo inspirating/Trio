@@ -81,7 +81,7 @@ extension PumpConfig {
                     allowedInsulinTypes: [.apidra, .humalog, .novolog, .fiasp, .lyumjev]
                 )
             case .m640g:
-                setupViewController = M640GPumpManager.setupViewController(
+                setupViewController = M640GKitPumpManager.setupViewController(
                     initialSettings: initialSettings,
                     bluetoothProvider: bluetoothManager,
                     colorPalette: .default,
