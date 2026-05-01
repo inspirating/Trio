@@ -33,4 +33,5 @@ TRIO_PROJECTS=( \
     loopandlearn:DanaKit:dev \
     loopandlearn:EversenseKit:dev \
     loopandlearn:MedtrumKit:dev \
+    loopandlearn:M640GKit:main \
 )
