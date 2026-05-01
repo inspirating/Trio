@@ -8,6 +8,9 @@
       location = "group:MinimedKit/MinimedKit.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:M640GKit/M640GKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LibreTransmitter/LibreTransmitter.xcodeproj">
    </FileRef>
    <FileRef

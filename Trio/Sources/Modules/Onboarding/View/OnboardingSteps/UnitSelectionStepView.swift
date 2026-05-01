@@ -32,8 +32,8 @@ struct UnitSelectionStepView: View {
                 }
                 .onChange(of: state.pumpOptionForOnboardingUnits, { _, newValue in
                     state.remapTherapyItemsForChangedPumpModel()
-                    // Conditionally set rewind setting, if pump model is Medtronic (.minimed) or Dana (i/RS)
-                    state.rewindResetsAutosens = (newValue == .minimed || newValue == .dana)
+                    // Conditionally set rewind setting, if pump model is Medtronic (.minimed) m640g or Dana (i/RS)
+                    state.rewindResetsAutosens = (newValue == .minimed || newValue == .m640g || newValue == .dana)
                 })
                 .onChange(of: state.units, { _, _ in
                     state.remapTherapyItemsForChangedUnits()

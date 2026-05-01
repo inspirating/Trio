@@ -3,6 +3,7 @@ import DanaKit
 import FirebaseCrashlytics
 import Foundation
 import LoopKit
+import M640GKit
 import MedtrumKit
 import MinimedKit
 import Observation
@@ -127,6 +128,8 @@ extension Onboarding {
                         defaultOption = .dana
                     } else if pumpManager is MinimedPumpManager {
                         defaultOption = .minimed
+                    } else if pumpManager is M640GPumpManager {
+                        defaultOption = .m640g
                     } else {
                         defaultOption = .omnipodDash
                     }
@@ -163,6 +166,8 @@ extension Onboarding {
             case .dana:
                 return PickerSetting(value: 0.1, step: 0.05, min: 0, max: 3, type: .insulinUnitPerHour)
             case .minimed:
+                return PickerSetting(value: 0.1, step: 0.05, min: 0, max: 35, type: .insulinUnitPerHour)
+            case .m640g:
                 return PickerSetting(value: 0.1, step: 0.05, min: 0, max: 35, type: .insulinUnitPerHour)
             case .omnipodDash:
                 return PickerSetting(value: 0.1, step: 0.05, min: 0, max: 30, type: .insulinUnitPerHour)
@@ -214,7 +219,7 @@ extension Onboarding {
         var rewindResetsAutosens: Bool = true
 
         var filteredAutosensSettingsSubsteps: [AutosensSettingsSubstep] {
-            if pumpOptionForOnboardingUnits == .minimed || pumpOptionForOnboardingUnits == .dana {
+            if pumpOptionForOnboardingUnits == .minimed || pumpOptionForOnboardingUnits == .m640g || pumpOptionForOnboardingUnits == .dana {
                 return AutosensSettingsSubstep.allCases
             } else {
                 return [AutosensSettingsSubstep.autosensMin, AutosensSettingsSubstep.autosensMax]

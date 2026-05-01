@@ -505,6 +505,7 @@ enum PumpOptionForOnboardingUnits: String, Equatable, CaseIterable, Identifiable
     case omnipodDash
     case dana
     case medtrum
+    case m640g
 
     var id: String { rawValue }
 
@@ -512,6 +513,8 @@ enum PumpOptionForOnboardingUnits: String, Equatable, CaseIterable, Identifiable
         switch self {
         case .minimed:
             return "Medtronic"
+        case .m640g:
+            return "M640G"
         case .omnipodEros:
             return "Omnipod Eros"
         case .omnipodDash:
