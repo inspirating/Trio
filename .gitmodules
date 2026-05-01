@@ -34,3 +34,6 @@
 [submodule "MedtrumKit"]
 	path = MedtrumKit
 	url = https://github.com/loopandlearn/MedtrumKit
+[submodule "M640GKit"]
+	path = M640GKit
+	url = https://github.com/inspirating/M640GKit.git
