@@ -2,7 +2,6 @@ import DanaKit
 import LoopKit
 import LoopKitUI
 import M640GKit
-import M640GKitUI
 import MedtrumKit
 import MinimedKit
 import MinimedKitUI
