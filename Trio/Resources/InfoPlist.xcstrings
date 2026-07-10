@@ -125,7 +125,7 @@
             "value" : "Trio"
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Trio"
@@ -257,7 +257,7 @@
             "value" : "Trio"
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Trio"
@@ -389,7 +389,7 @@
             "value" : "NFC được sử dụng để quét cảm biến Libre."
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "NFC 用於掃描 Libre 傳感器。"
@@ -521,7 +521,7 @@
             "value" : "Bluetooth được sử dụng để liên lạc với máy bơm insulin và các thiết bị theo dõi đường huyết liên tục"
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "藍牙用於與胰島素幫浦及連續血糖監測裝置通訊"
@@ -653,7 +653,7 @@
             "value" : "Bluetooth được sử dụng để liên lạc với máy bơm insulin và các thiết bị theo dõi đường huyết liên tục"
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "藍牙用於與胰島素幫浦及連續血糖監測裝置通訊"
@@ -785,7 +785,7 @@
             "value" : "Tạo các sự kiện với giá trị đo đường huyết, để có thể xem trên Apple Watch và CarPlay"
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "用以建立含血糖讀值的事件，以便在 Apple Watch 與 CarPlay 上查看"
@@ -917,7 +917,7 @@
             "value" : "Lịch được sử dụng để tạo các sự kiện đo đường huyết mới."
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "行事曆用於建立新的血糖事件。"
@@ -1048,7 +1048,7 @@
             "value" : "Cho phép Trio truy cập danh bạ của bạn để cập nhật trực tiếp vào tiện ích danh bạ trên Apple Watch bằng tính năng ‘Contact Trick’."
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "允許 Trio 存取你的聯絡人，透過「Contact Trick」功能為 Apple Watch 聯絡人複雜功能提供即時更新。"
@@ -1180,7 +1180,7 @@
             "value" : "Được cấp quyền truy cập vào bolus"
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "用於授權存取注射"
@@ -1311,7 +1311,7 @@
             "value" : "Ứng dụng Health được sử dụng để lưu trữ dữ liệu đường huyết, insulin và carbohydrate"
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "健康 App 用於儲存血糖、胰島素與碳水化合物"
@@ -1442,7 +1442,7 @@
             "value" : "Ứng dụng Health được dùng để lưu trữ dữ liệu đường huyết, insulin và carbohydrate"
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "健康 App 用於儲存血糖、胰島素與碳水化合物"
@@ -1574,7 +1574,7 @@
             "value" : ""
           }
         },
-        "zh-Hant" : {
+        "zh-Hans" : {
           "stringUnit" : {
             "state" : "new",
             "value" : ""
