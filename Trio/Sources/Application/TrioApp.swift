@@ -16,7 +16,9 @@ extension Notification.Name {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     // Read the color scheme preference from UserDefaults; defaults to system default setting
-    @AppStorage("colorSchemePreference") private var colorSchemePreference: ColorSchemeOption = .systemDefault
+    // @AppStorage("colorSchemePreference") private var colorSchemePreference: ColorSchemeOption = .systemDefault
+    @AppStorage("colorSchemePreference") private var colorSchemePreference: ColorSchemeOption = .dark
+
 
     let coreDataStack = CoreDataStack.shared
     let onboardingManager = OnboardingManager.shared
