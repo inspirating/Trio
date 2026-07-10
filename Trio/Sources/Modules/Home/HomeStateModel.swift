@@ -107,6 +107,8 @@ extension Home {
         var pumpStatusBadgeImage: UIImage?
         var pumpStatusBadgeColor: Color?
         var cgmAvailable: Bool = false
+        var predictionWarning: String?
+        var warningColor: Color = .red
         var listOfCGM: [CGMModel] = []
         var cgmCurrent = cgmDefaultModel
         var pumpInitialSettings = PumpConfig.PumpInitialSettings.default
