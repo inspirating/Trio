@@ -948,7 +948,15 @@ extension Home {
                         action: { state.isLegendPresented.toggle() }
                     )
                 }.padding([.horizontal, .bottom])
-
+                                
+                if let warning = state.predictionWarning {
+                    Text(warning)
+                        .font(.callout).fontWeight(.bold).fontDesign(.rounded)
+                        .foregroundColor(state.warningColor)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.horizontal, 20)
+                }
+                
                 if let progress = state.bolusProgress {
                     bolusView(geo: geo, progress)
                         .padding(.bottom, UIDevice.adjustPadding(min: nil, max: 40))
