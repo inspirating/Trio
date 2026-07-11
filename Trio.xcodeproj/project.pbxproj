@@ -768,6 +768,7 @@
 		BD175EBE000010000000000B /* HistoryRootView+Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD175EFE000010000000000B /* HistoryRootView+Filters.swift */; };
 		BD175EBE000010000000000C /* HistoryRootView+AddGlucose.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD175EFE000010000000000C /* HistoryRootView+AddGlucose.swift */; };
 		BD175EBE000010000000000D /* HistoryRootView+Confirmations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD175EFE000010000000000D /* HistoryRootView+Confirmations.swift */; };
+		BD175EBE000010000000000E /* FullyAuditedBGPredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD175EFE000010000000000E /* FullyAuditedBGPredictor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1629,6 +1630,7 @@
 		BD175EFE000010000000000B /* HistoryRootView+Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryRootView+Filters.swift"; sourceTree = "<group>"; };
 		BD175EFE000010000000000C /* HistoryRootView+AddGlucose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryRootView+AddGlucose.swift"; sourceTree = "<group>"; };
 		BD175EFE000010000000000D /* HistoryRootView+Confirmations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryRootView+Confirmations.swift"; sourceTree = "<group>"; };
+		BD175EFE000010000000000E /* FullyAuditedBGPredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullyAuditedBGPredictor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -2074,10 +2076,19 @@
 				3811DE2925C9D49500A708ED /* HomeProvider.swift */,
 				3811DE2825C9D49500A708ED /* HomeStateModel.swift */,
 				3B4196DF2D8C4BBB0091DFF7 /* HomeStateModel+CGM.swift */,
+				BD175EBE0000100000000010 /* GlucosePrediction */,
 				58645B972CA2D16A008AFCE7 /* HomeStateModel+Setup */,
 				3811DE2C25C9D49500A708ED /* View */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		BD175EBE0000100000000010 /* GlucosePrediction */ = {
+			isa = PBXGroup;
+			children = (
+				BD175EFE000010000000000E /* FullyAuditedBGPredictor.swift */,
+			);
+			path = GlucosePrediction;
 			sourceTree = "<group>";
 		};
 		3811DE2C25C9D49500A708ED /* View */ = {
@@ -4930,6 +4941,7 @@
 				BD175EBE000010000000000B /* HistoryRootView+Filters.swift in Sources */,
 				BD175EBE000010000000000C /* HistoryRootView+AddGlucose.swift in Sources */,
 				BD175EBE000010000000000D /* HistoryRootView+Confirmations.swift in Sources */,
+				BD175EBE000010000000000E /* FullyAuditedBGPredictor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
